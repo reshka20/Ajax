@@ -1,0 +1,47 @@
+.container{
+width: 100%;
+height: 145vh;
+flex-direction: row;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: url(img/0.jpg);
+background-size: cover;
+background-position: center;
+
+}
+
+.container .row{
+width: 10%;
+height: 140vh;
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100px;
+    height: 100px;
+
+}
+button{
+    width:100px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#q1{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    color: #000;
+    
+}
+h1{
+    color:red;
+}
+p{
+    color: #fff;
+}
